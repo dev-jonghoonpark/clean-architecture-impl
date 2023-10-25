@@ -1,7 +1,7 @@
 package dataaccess;
 
+import dataaccess.interfaces.UserDataAccessInterface;
 import entities.User;
-import interactor.interfaces.UserDataAccessInterface;
 
 import java.util.List;
 import java.util.Objects;

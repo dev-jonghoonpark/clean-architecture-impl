@@ -1,7 +1,7 @@
 package interactor;
 
+import dataaccess.interfaces.UserDataAccessInterface;
 import entities.User;
-import interactor.interfaces.UserDataAccessInterface;
 
 public class UserUseCaseInteractor {
     private final UserDataAccessInterface userDataAccess;

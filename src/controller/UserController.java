@@ -1,9 +1,9 @@
 package controller;
 
+import controller.interfaces.InputBoundary;
 import dto.OutputData;
 import entities.User;
 import interactor.UserUseCaseInteractor;
-import interactor.interfaces.InputBoundary;
 
 public class UserController implements InputBoundary {
     private UserUseCaseInteractor userUseCaseInteractor;

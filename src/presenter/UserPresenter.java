@@ -1,7 +1,7 @@
 package presenter;
 
 import dto.OutputData;
-import interactor.interfaces.OutputBoundary;
+import presenter.interfaces.OutputBoundary;
 
 public class UserPresenter implements OutputBoundary {
     @Override
