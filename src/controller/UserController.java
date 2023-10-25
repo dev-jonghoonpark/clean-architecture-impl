@@ -6,7 +6,7 @@ import entities.User;
 import interactor.UserUseCaseInteractor;
 
 public class UserController implements InputBoundary {
-    private UserUseCaseInteractor userUseCaseInteractor;
+    private final UserUseCaseInteractor userUseCaseInteractor;
 
     public UserController(UserUseCaseInteractor userUseCaseInteractor) {
         this.userUseCaseInteractor = userUseCaseInteractor;
